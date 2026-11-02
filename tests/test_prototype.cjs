@@ -1,0 +1,10 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const path=require('path');const source=fs.readFileSync(path.join(__dirname,'../prototype/index.html'),'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];
+const c=vm.createContext({tabs:{innerHTML:''},screen:{innerHTML:''}});vm.runInContext(source,c);
+const run=s=>vm.runInContext(s,c);
+assert.equal(run('balance'),0);run('claim(0)');assert.equal(run('balance'),0);
+run('completed.add(0); claim(0); claim(0)');assert.equal(run('balance'),100);
+run('completed.add(1); claim(1)');assert.equal(run('balance'),100);
+run('day=2; claim(1)');assert.equal(run('balance'),300);
+run('day=3; completed.add(2);claim(2);go(4)');assert.equal(run('balance'),600);assert(c.screen.innerHTML.includes('已完成本轮成长'));
+run('go(4)');assert.equal(run('balance'),600);console.log('PASS: prototype rejected/unlocked/idempotent/settlement state transitions');
