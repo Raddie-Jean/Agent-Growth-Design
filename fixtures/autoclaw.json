@@ -1,0 +1,46 @@
+{
+  "product": "autoclaw",
+  "proposal": true,
+  "native_reward_verified": false,
+  "reward_unit": "活动学习积分",
+  "total": 1000,
+  "entry": "工作台/任务列表上方",
+  "summary_grants_reward": false,
+  "tasks": [
+    {
+      "id": "day-1",
+      "day": 1,
+      "label": "设置任务目标",
+      "reward": 100,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-2",
+      "day": 2,
+      "label": "连接脱敏资料",
+      "reward": 150,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-3",
+      "day": 3,
+      "label": "运行首个任务",
+      "reward": 200,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-4",
+      "day": 4,
+      "label": "修复失败步骤",
+      "reward": 250,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-5",
+      "day": 5,
+      "label": "复用工作流",
+      "reward": 300,
+      "completion": "用户验收任务成果"
+    }
+  ]
+}

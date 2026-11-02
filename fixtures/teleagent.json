@@ -1,0 +1,60 @@
+{
+  "product": "teleagent",
+  "proposal": true,
+  "native_reward_verified": false,
+  "reward_unit": "活动学习积分",
+  "total": 2000,
+  "entry": "账户菜单/权益中心下方",
+  "summary_grants_reward": false,
+  "tasks": [
+    {
+      "id": "day-1",
+      "day": 1,
+      "label": "资料调研",
+      "reward": 400,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-2",
+      "day": 2,
+      "label": "输出文档",
+      "reward": 300,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-3",
+      "day": 3,
+      "label": "整理数据",
+      "reward": 300,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-4",
+      "day": 4,
+      "label": "复用方法",
+      "reward": 250,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-5",
+      "day": 5,
+      "label": "复核结果",
+      "reward": 250,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-6",
+      "day": 6,
+      "label": "应用技能",
+      "reward": 250,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-7",
+      "day": 7,
+      "label": "独立完成",
+      "reward": 250,
+      "completion": "用户验收任务成果"
+    }
+  ]
+}

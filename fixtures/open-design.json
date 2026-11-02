@@ -1,0 +1,32 @@
+{
+  "product": "open-design",
+  "proposal": true,
+  "native_reward_verified": false,
+  "reward_unit": "活动学习积分",
+  "total": 600,
+  "entry": "首页/输入框下方成长计划",
+  "summary_grants_reward": false,
+  "tasks": [
+    {
+      "id": "day-1",
+      "day": 1,
+      "label": "生成首个可用原型",
+      "reward": 100,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-2",
+      "day": 2,
+      "label": "按反馈修改原型",
+      "reward": 200,
+      "completion": "用户验收任务成果"
+    },
+    {
+      "id": "day-3",
+      "day": 3,
+      "label": "保存模板并复用",
+      "reward": 300,
+      "completion": "用户验收任务成果"
+    }
+  ]
+}
